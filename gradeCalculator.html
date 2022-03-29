@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <h1>GPA Calculator</h1>
+
+      <div class="wrapper">
+        <form action="/" method="POST">
+          <table>
+            <tr class="subheading">
+              <td><strong>Course (optional)</strong></td>
+              <td><strong>Grade</strong></td>
+              <td><strong>Credits</strong></td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Course 1"
+                  class="left-input cc"
+                />
+              </td>
+
+              <td>
+                <select name="first">
+                  <option value="">--</option>
+                  <option value="A">A</option>
+                  <option value="A-">A-</option>
+                  <option value="B+">B+</option>
+                  <option value="B">B</option>
+                  <option value="B-">B-</option>
+                  <option value="C+">C+</option>
+                  <option value="C">C</option>
+                  <option value="C-">C-</option>
+                  <option value="D+">D+</option>
+                  <option value="D">D</option>
+                  <option value="D-">D-</option>
+                  <option value="F">F</option>
+                </select>
+              </td>
+
+              <td>
+                <input type="text" name="firstc" class="right-input cc" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Course 2"
+                  class="left-input cc"
+                />
+              </td>
+
+              <td>
+                <select name="second">
+                  <option value="">--</option>
+                  <option value="A">A</option>
+                  <option value="A-">A-</option>
+                  <option value="B+">B+</option>
+                  <option value="B">B</option>
+                  <option value="B-">B-</option>
+                  <option value="C+">C+</option>
+                  <option value="C">C</option>
+                  <option value="C-">C-</option>
+                  <option value="D+">D+</option>
+                  <option value="D">D</option>
+                  <option value="D-">D-</option>
+                  <option value="F">F</option>
+                </select>
+              </td>
+
+              <td>
+                <input type="text" name="secondc" class="right-input cc" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Course 3"
+                  class="left-input cc"
+                />
+              </td>
+
+              <td>
+                <select name="third">
+                  <option value="">--</option>
+                  <option value="A">A</option>
+                  <option value="A-">A-</option>
+                  <option value="B+">B+</option>
+                  <option value="B">B</option>
+                  <option value="B-">B-</option>
+                  <option value="C+">C+</option>
+                  <option value="C">C</option>
+                  <option value="C-">C-</option>
+                  <option value="D+">D+</option>
+                  <option value="D">D</option>
+                  <option value="D-">D-</option>
+                  <option value="F">F</option>
+                </select>
+              </td>
+
+              <td>
+                <input type="text" name="thirdc" class="right-input cc" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Course 4"
+                  class="left-input cc"
+                />
+              </td>
+
+              <td>
+                <select name="fourth">
+                  <option value="">--</option>
+                  <option value="A">A</option>
+                  <option value="A-">A-</option>
+                  <option value="B+">B+</option>
+                  <option value="B">B</option>
+                  <option value="B-">B-</option>
+                  <option value="C+">C+</option>
+                  <option value="C">C</option>
+                  <option value="C-">C-</option>
+                  <option value="D+">D+</option>
+                  <option value="D">D</option>
+                  <option value="D-">D-</option>
+                  <option value="F">F</option>
+                </select>
+              </td>
+
+              <td>
+                <input type="text" name="fourthc" class="right-input cc" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Course 5"
+                  class="left-input cc"
+                />
+              </td>
+
+              <td>
+                <select name="fifth">
+                  <option value="">--</option>
+                  <option value="A">A</option>
+                  <option value="A-">A-</option>
+                  <option value="B+">B+</option>
+                  <option value="B">B</option>
+                  <option value="B-">B-</option>
+                  <option value="C+">C+</option>
+                  <option value="C">C</option>
+                  <option value="C-">C-</option>
+                  <option value="D+">D+</option>
+                  <option value="D">D</option>
+                  <option value="D-">D-</option>
+                  <option value="F">F</option>
+                </select>
+              </td>
+
+              <td>
+                <input type="text" name="fifthc" class="right-input cc" />
+              </td>
+            </tr>
+          </table>
+
+          <div class="cum-gpa">
+            <label for="gpa" class="cum-title"
+              ><strong
+                >Optional: Cumulative GPA and Total Credits earned so
+                far</strong
+              ></label
+            >
+            <input
+              type="text"
+              class="cum-left"
+              placeholder="Cumulative GPA"
+              name="cumGpa"
+            />
+            <input
+              type="text"
+              class="cum-right"
+              placeholder="Credits"
+              name="cumCredits"
+            />
+          </div>
+
+          <table>
+            <tr>
+              <td>
+                <button
+                  type="submit"
+                  name="submit"
+                  class="btn btn-danger btn-lg calculate"
+                >
+                  Calculate!
+                </button>
+              </td>
+              <td>
+                <button type="reset" class="btn btn-warning btn-lg reset">
+                  Reset
+                </button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p>© Copyright 2021 Masaki Nawa</p>
+  </footer>
+</html>
