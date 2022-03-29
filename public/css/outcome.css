@@ -1,0 +1,43 @@
+html,
+body {
+  background-color: cornflowerblue;
+  padding: 1rem 2rem;
+  min-width: 745px;
+}
+
+.wrapper {
+  background-color: powderblue;
+  border-radius: 5px;
+  padding: 30px 0;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gpaDisplay {
+  background-color: lightgreen;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
+  width: 460px;
+}
+
+.creditsDisplay {
+  background-color: darkkhaki;
+  border-radius: 5px;
+  margin: 10px auto;
+  text-align: center;
+  width: 300px;
+}
+
+form {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+}

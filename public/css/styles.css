@@ -1,0 +1,104 @@
+html,
+body {
+  background-color: cornflowerblue;
+  padding: 1rem 2rem;
+  min-width: 578px;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px auto 0 auto;
+  background-color: darkseagreen;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.background {
+  background-color: lightseagreen;
+  padding: 5px 0 3px 0;
+}
+
+input {
+  width: 126px;
+  height: 36px;
+  padding: 6px 12px;
+  border: 3px;
+  border-radius: 5px;
+  margin: 10px 8px;
+}
+
+select {
+  width: 104px;
+  height: 36px;
+  padding: 6px 12px;
+  border: 1px;
+  border-radius: 5px;
+}
+
+form {
+  background-color: darkkhaki;
+  width: 450px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 5px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  margin: 20px auto;
+  /* margin-left: 33%; */
+  width: 450px;
+}
+
+.subheading {
+  text-align: center;
+  height: 40px;
+}
+
+.calculate {
+  margin: 15px 4px 10px 20px;
+}
+
+.left-input {
+  margin-left: 20px;
+}
+
+.right-input {
+  margin-right: 20px;
+}
+
+.cum-section {
+  margin-right: 300px;
+  width: 418px;
+  border-radius: 0;
+}
+
+.cum-left {
+  margin-left: 20px;
+  width: 174px;
+  margin-right: 10px;
+}
+
+.cum-right {
+  width: 174px;
+}
+
+.cum-title {
+  text-align: center;
+  padding: 0 20px 0 10px;
+  margin-top: 18px;
+}
+
+.reset {
+  margin-left: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
